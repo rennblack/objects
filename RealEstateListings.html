@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Listings</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<script src="house.js"></script>
+	<script>
+		//Create object or instance
+		var ranch = new House("122 Elm Street", 249900, 5, 4, "3 car", "Central heat & air", "2 miles from schools", "Finished basement, In-ground pool, Media room", "3-14-2021")
+		var colonial = new House("554 South St. James Street", 298000, 6, 4, "2 car", "Central heat & air", ".5 miles", "Finished basement, Pool, Solarium, Wine cellar, Safe room", "2-28-2021");
+		alert(ranch.address);
+		ranch.favoriteListing();
+		ranch.removeFavorite();
+		
+		alert(colonial.highlights);
+		colonial.favoriteListing();
+		colonial.removeFavorite();
+		alert(colonial.address + " is priced above your set budget at " + colonial.price + ".");
+	</script>
+</head>
+<body>
+	<div id="output"></div>
+	<script>
+        
+		
+		
+     </script>
+</body>
+</html>
